@@ -4,6 +4,8 @@
   <%= article.label :title %>
   <%= article.text_field :title %>
   <%= article.label :content %>
+  <div class="ace-editor">
   <%= article.text_area :content, rows: 15, columns: 8 %>
+  </div>
   <%= article.submit %>
 <% end %>
